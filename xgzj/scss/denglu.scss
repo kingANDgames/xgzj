@@ -1,0 +1,24 @@
+$font-size:16px;
+$iwidth:1200px;
+$mcenter:0 auto;
+$fontColor:#666;
+$hoverColor:#76ac25;
+$fcolor:#ffffff;
+$footer_zd:#F5F5F5;
+*{
+    margin: 0;padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+}
+@import "headtop";
+@import "logo";
+@import "dlyh";
+@import "footer";
+

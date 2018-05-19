@@ -1,0 +1,53 @@
+#loutinav{
+    width: 42px;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+    line-height: 42px;
+    z-index: 9999;
+    ul li{
+        display: none;
+    }
+    ul li,p{
+        width: 42px;
+        height: 42px;
+        border: 1px solid #DDDDDD;
+        list-style: none;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        margin: 5px 0;
+        background: #FFFFFF;
+        color: #5e4a4a;
+        &:hover{
+            background-color: #aba;
+        }
+    }
+    .gwc{
+        background: url(../img/productList.png) no-repeat 0 -45px;
+        &:hover{
+            background-position: 0 -147px;
+        }
+    }
+    .zuji{
+        background: url(../img/productList.png) no-repeat -42px -82px;
+        &:hover{
+            background-position: -42px -184px;
+        }
+    }
+    .saoma{
+        background: url(../img/productList.png) no-repeat -42px -40px;
+        &:hover{
+            background-position: -42px -142px;
+        }
+    }
+    .active{
+        background: #eee;
+    }
+    .last{
+        background: url(../img/productList.png) no-repeat 0 -82px;
+        &:hover{
+            background-position: 0 -184px;
+        }
+    }
+}

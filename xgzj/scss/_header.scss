@@ -1,0 +1,145 @@
+@import "headtop";
+@import "logo";
+#nav{
+    width: $iwidth;line-height: 40px;margin: 0 auto;position:relative;top:  6px;
+    &:after{
+        content: "";display: block;clear: both;
+    }
+    .nav_fenlei{
+        float: left;
+        a{
+            width: 200px;height: 34px;background: $hoverColor - 20;color: $fcolor;text-align: center;font-size: $font-size - 1;font-weight: bold;display: block;
+        }
+    }
+    .nav_nav{
+        float: left;
+        ul{
+            li{
+                float: left;
+            }
+        }
+        .sy a{
+            color: $hoverColor;
+        }
+        a{
+            display: block;width: 100px;color: #000000;font-weight: bold;text-align: center;font-size: $font-size - 2;
+            &:hover{
+                color: $hoverColor;
+            }
+        }
+    }
+}
+
+
+.floatBar{
+    position: fixed;top: 0;left: 0;background: $fcolor;width: 100%;border-bottom: 1px solid #CACACA;z-index: 9999;display: none;
+    .pW{
+        width: $iwidth;height: 43px;margin: 0 auto;
+    }
+    .logo{
+        float: left;
+        span{
+            width: 175px;height:43px;display: inline-block;
+        }
+        
+    }
+    .nav{
+        float: left;margin-top: 10px;
+        a{
+            font-size: $font-size - 4;color: #333;width: 60px;height: 21px;display: inline-block;margin-right: 15px;
+        }
+    }
+    .fr{
+        padding-top: 13px;float: right;
+        li{
+            float: left;width: 60px;padding: 0 10px;font-size: $font-size - 4;color: #333;text-align: center;position: relative;
+            a{
+                color: $fontColor;
+            }
+            .site{
+                font-style: normal;
+            }
+        }
+        b{
+            width: 8px;height: 4px;background:url(../img/header.png) no-repeat -86px -130px;position: absolute;right: 5px;top: 8px;transition: 0.2s;
+        }
+        s{
+            width: 8px;height: 4px;background:url(../img/header.png) no-repeat -86px -130px;position: absolute;right: 5px;top: 8px;transition: 0.2s;
+        }
+        .dd{
+            display: none;
+        }
+        &:hover{
+            b{
+                transform:rotate(180deg);
+            }
+            s{
+                transform:rotate(180deg);
+            }
+            .dd{
+                display: block;
+            }
+        }
+    }
+}
+
+
+#hr{
+    width: 100%;height: 2px;background: $hoverColor - 20;
+}
+#banner{
+    width: $iwidth;height: 360px;margin: 0 auto;
+}
+.banner_fenlei{
+    width: 200px;height: 360px;background: $hoverColor;float: left;
+    ul{
+        margin-left: 10px;padding: 8px 0;
+        p{
+            padding-left: 20px;
+        }
+        p:nth-of-type(1){
+            background: url(http://www.xianguozhijia.com/themes/shunfeng/images/left_lm_a.png) no-repeat -10px 5px;
+            a{
+                color: $fcolor;font-size: $font-size - 2;
+            }
+        }
+        p:nth-of-type(2){
+            a{
+                color: $fcolor - 20;font-size: $font-size - 4;
+            }
+        }
+        li{
+            padding: 8px 0;
+            &:hover{
+                background: $fcolor;
+                a{
+                    color: $hoverColor;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.banner{
+    width: 1000px;height:360px;position: relative;overflow: hidden;float: left;
+    ul{
+        position:absolute;left:0px;top:0px;
+        li{
+            float: left;width: 1000px;
+        }
+        img{
+            width: 1000px;height: 360px;
+        }
+    }
+    ol{
+        position: absolute;width: 204px;height: 20px;left:50%;margin-left: -200px;bottom:15px;
+        li{
+            float: left;width: 24px;height: 24px;border-radius: 50%;background: $fontColor+4;margin: 0 5px;cursor: pointer;color: $fcolor;text-align: center;font-size: $font-size - 2;line-height: 24px;
+            &.active{
+                background: orange;
+            }
+        }
+    }
+}

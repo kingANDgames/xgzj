@@ -1,0 +1,104 @@
+.footer_zd{
+    background: $footer_zd;width: 100%;
+    ul{
+        width: $iwidth;margin: $mcenter;
+        &:after{
+            content:"";display: block;clear: both;
+        }
+        li{
+            float: left;width: 300px;height: 120px;
+            a{
+                width: 200px;height: 60px;margin: 30px 50px;display:block;
+            }
+        }
+        .quanqiu a{
+                background: url(http://www.xianguozhijia.com/themes/shunfeng/images/qq.jpg
+) no-repeat center;
+            }
+        .chandi a{
+                background: url(http://www.xianguozhijia.com/themes/shunfeng/images/cd.jpg
+) no-repeat center;
+            }
+        .qcll a{
+                background: url(http://www.xianguozhijia.com/themes/shunfeng/images/qc.jpg
+) no-repeat center;
+            }
+        .sfzd a{
+                background: url(http://www.xianguozhijia.com/themes/shunfeng/images/sf.jpg
+) no-repeat center;
+        }
+    }
+}
+.foot{
+    width: $iwidth;margin: $mcenter;border-bottom: 1px solid $fontColor+100;
+    .foot_page:after{
+            content:"";display: block;clear: both;
+        }
+    }
+   .footer_logo{
+        width: 290px;background: url(http://www.xianguozhijia.com/data/afficheimg/1449127199437894093.png) no-repeat top left;float: left;margin: 20px 0 0 10px;
+    ul{
+        padding-top: 85px;
+        li:nth-of-type(1){
+            font-size: $font-size+4;line-height: 30px;
+        }
+        li:nth-of-type(2){
+            font-size: $font-size - 4;line-height: 18px;
+        }
+    }
+}
+.foot_middle{
+    margin-top: 35px;float: left;
+    ul{
+        width: 136px;float: left;
+        li{
+            font-size: $font-size - 2;font-weight: bold;line-height: 24px;
+            a{
+                display: block;font-size: $font-size - 4;font-weight: 100;color: $fontColor;
+                &:hover{
+                   color: $hoverColor; 
+                }
+            }
+        }
+        
+    }
+}
+.foot_right{
+    margin: 35px 0 25px 0;float: left;
+    ul{
+        width: 130px;float: left;
+        li{
+            margin: 0 50px 8px 0;font-size: $font-size - 2;font-weight: bold;line-height: 24px;
+            a{
+                display: block;color: $fontColor+4;text-align: center;
+            }
+            span{
+                width: 80px;height: 80px;display: block;
+            }
+        }
+    }
+    ul:nth-of-type(1) li:nth-of-type(2) span{
+                background: url(http://www.xianguozhijia.com/data/afficheimg/1451090990913635252.jpg) no-repeat center;
+            }
+    ul:nth-of-type(2) li:nth-of-type(2) span{
+              background: url(http://www.xianguozhijia.com/data/afficheimg/1451091006638162621.jpg) no-repeat center;
+          }    
+}
+.foot_bottom{
+    width: $iwidth;margin: 21px auto;
+    div{
+        float: left;
+        .bottom_kx{
+            display: block;
+        }
+        p{
+            padding-left: 13px;font-size: $font-size - 4;color: $fontColor;
+            a{
+                padding-right: 13px;color: $fontColor;
+                &:hover{
+                   color: $hoverColor; 
+                }
+            }
+        }
+    }
+}
